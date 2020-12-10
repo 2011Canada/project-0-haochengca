@@ -272,3 +272,4 @@ com.revature.service.UserTest 2020-12-08 10:45:09 this is debug message 42
 2020-12-10 04:05:02 com.revature.dao.impl.CustomerDaoImpl  a transfer 11111.0 to b failed! Insufficient funds！ 83 
 2020-12-10 04:05:02 com.revature.service.impl.CustomerServiceImpl  a transfer 11111 to b failed！ 114 
 2020-12-10 04:08:06 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 04:25:54 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
