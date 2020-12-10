@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namesapce:理解成实现类的全路径(包名+类名) -->
+<mapper namespace="com.revature" >
+	<!-- id:方法名 
+		parameterType:定义参数类型
+		resultType:返回值类型.
+		
+		如果方法返回值是list,在resultType中写List的泛型,因为mybatis
+		对jdbc封装,一行一行读取数据
+	-->
+	<select id="selAllUser" resultType="com.revature.pojo.User">
+		select * from user
+	</select>
+	<select id="selAllTransaction" resultType="com.revature.pojo.Transaction">
+		select * from transaction
+	</select>
+	<select id="selAllAccount" resultType="com.revature.pojo.Account">
+		select * from account
+	</select>
+	<select id="UserExist" resultType="com.revature.pojo.User" parameterType="string">
+		select * from user where username = #{0}
+	</select>
+	<select id="UserLogin" resultType="com.revature.pojo.User" parameterType="com.revature.pojo.User">
+		select * from user where username = #{username} and password = #{password}
+	</select>
+</mapper>

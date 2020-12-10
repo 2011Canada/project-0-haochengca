@@ -1,0 +1,274 @@
+org.apache.ibatis.logging.LogFactory Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Opening JDBC Connection 132 
+org.apache.ibatis.datasource.pooled.PooledDataSource Created connection 575593575. 380 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 98 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from user  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from transaction  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from account  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 139 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 120 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 88 
+org.apache.ibatis.datasource.pooled.PooledDataSource Returned connection 575593575 to pool. 334 
+com.revature.service.UserTest this is debug message 42 
+org.apache.ibatis.logging.LogFactory 2020-12-08 10:45:09 Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 PooledDataSource forcefully closed/removed all connections. 306 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2020-12-08 10:45:09 Opening JDBC Connection 132 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 Created connection 575593575. 380 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2020-12-08 10:45:09 Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 98 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==>  Preparing: select * from user  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 <==      Total: 1 139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==>  Preparing: select * from transaction  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 <==      Total: 1 139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==>  Preparing: select * from account  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 ==> Parameters:  139 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger 2020-12-08 10:45:09 <==      Total: 1 139 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2020-12-08 10:45:09 Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 120 
+org.apache.ibatis.transaction.jdbc.JdbcTransaction 2020-12-08 10:45:09 Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 88 
+org.apache.ibatis.datasource.pooled.PooledDataSource 2020-12-08 10:45:09 Returned connection 575593575 to pool. 334 
+com.revature.service.UserTest 2020-12-08 10:45:09 this is debug message 42 
+2020-12-08 10:48:38 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:48:38 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Opening JDBC Connection 132 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  Created connection 575593575. 380 
+2020-12-08 10:48:38 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 98 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:48:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:48:38 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 120 
+2020-12-08 10:48:38 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 88 
+2020-12-08 10:48:38 org.apache.ibatis.datasource.pooled.PooledDataSource  Returned connection 575593575 to pool. 334 
+2020-12-08 10:48:38 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 10:49:28 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+2020-12-08 10:49:28 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:49:28 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:49:28 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:49:28 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:49:28 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Opening JDBC Connection 132 
+2020-12-08 10:49:29 org.apache.ibatis.datasource.pooled.PooledDataSource  Created connection 575593575. 380 
+2020-12-08 10:49:29 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 98 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:49:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:49:29 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 120 
+2020-12-08 10:49:29 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@224edc67] 88 
+2020-12-08 10:49:29 org.apache.ibatis.datasource.pooled.PooledDataSource  Returned connection 575593575 to pool. 334 
+2020-12-08 10:49:29 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 10:53:21 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+2020-12-08 10:53:21 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 128 
+2020-12-08 10:53:21 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:53:21 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:53:21 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:53:21 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 10:53:21 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Opening JDBC Connection 132 
+2020-12-08 10:53:21 org.apache.ibatis.datasource.pooled.PooledDataSource  Created connection 1582797472. 380 
+2020-12-08 10:53:21 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 98 
+2020-12-08 10:53:21 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 10:53:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 10:53:22 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 120 
+2020-12-08 10:53:22 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 88 
+2020-12-08 10:53:22 org.apache.ibatis.datasource.pooled.PooledDataSource  Returned connection 1582797472 to pool. 334 
+2020-12-08 10:53:22 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 11:26:42 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. 128 
+2020-12-08 11:26:42 org.apache.ibatis.logging.LogFactory  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter. 128 
+2020-12-08 11:26:42 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 11:26:42 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 11:26:42 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 11:26:42 org.apache.ibatis.datasource.pooled.PooledDataSource  PooledDataSource forcefully closed/removed all connections. 306 
+2020-12-08 11:26:42 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Opening JDBC Connection 132 
+2020-12-08 11:26:43 org.apache.ibatis.datasource.pooled.PooledDataSource  Created connection 1582797472. 380 
+2020-12-08 11:26:43 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 98 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:26:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:26:43 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 120 
+2020-12-08 11:26:43 org.apache.ibatis.transaction.jdbc.JdbcTransaction  Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e5792a0] 88 
+2020-12-08 11:26:43 org.apache.ibatis.datasource.pooled.PooledDataSource  Returned connection 1582797472 to pool. 334 
+2020-12-08 11:26:43 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:32:43 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:32:43 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:34:33 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:34:33 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 11:35:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 11:35:04 com.revature.service.UserTest  this is debug message 42 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:58:04 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 03:59:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from transaction  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from account  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters:  139 
+2020-12-08 04:56:29 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 05:00:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where name = ?  139 
+2020-12-08 05:00:51 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String) 139 
+2020-12-08 05:08:39 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 05:08:39 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), dd(String) 139 
+2020-12-08 05:08:39 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 0 139 
+2020-12-08 05:08:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 05:08:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 05:08:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:15:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:15:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:15:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:15:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:15:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:15:38 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:19:37 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:19:37 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:19:37 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:20:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:20:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), a(String) 139 
+2020-12-08 07:20:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 0 139 
+2020-12-08 07:20:27 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:20:27 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:20:27 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:25:26 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:25:26 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:25:26 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:35:01 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:35:01 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:35:02 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 07:35:11 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:35:11 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 1(String) 139 
+2020-12-08 07:35:11 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 0 139 
+2020-12-08 07:45:46 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 07:45:46 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 07:45:46 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:03:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:03:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:03:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:07:13 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:07:14 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: \a(String), 123(String) 139 
+2020-12-08 08:07:14 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 0 139 
+2020-12-08 08:07:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:07:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:07:22 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:09:59 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:09:59 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:09:59 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:11:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:11:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:11:44 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:11:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:11:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:11:58 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-08 08:12:10 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-08 08:12:10 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-08 08:12:10 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-09 08:58:06 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==>  Preparing: select * from user where username = ? and password = ?  139 
+2020-12-09 08:58:06 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  ==> Parameters: a(String), 123(String) 139 
+2020-12-09 08:58:06 org.apache.ibatis.logging.jdbc.BaseJdbcLogger  <==      Total: 1 139 
+2020-12-10 03:05:46 com.revature.service.impl.CustomerServiceImpl  hello 21 
+2020-12-10 03:12:51 com.revature.service.impl.CustomerServiceImpl  hello 20 
+2020-12-10 03:13:02 com.revature.service.impl.CustomerServiceImpl  hello 20 
+2020-12-10 03:15:30 com.revature.service.impl.CustomerServiceImpl  a login successful! 62 
+2020-12-10 03:15:47 com.revature.service.impl.CustomerServiceImpl  a login failed! 65 
+2020-12-10 03:21:24 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:23:35 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:24:30 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:24:36 com.revature.service.impl.CustomerServiceImpl  a deposit 100sucessful 77 
+2020-12-10 03:28:41 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:28:54 com.revature.service.impl.CustomerServiceImpl  a deposit 123sucessful 77 
+2020-12-10 03:29:46 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:29:52 com.revature.service.impl.CustomerServiceImpl  a deposit 555sucessful 77 
+2020-12-10 03:35:33 com.revature.service.impl.EmployeeServiceImpl  abc login sucessfully! 59 
+2020-12-10 03:36:42 com.revature.service.impl.EmployeeServiceImpl  abc login sucessfully! 59 
+2020-12-10 03:37:08 com.revature.service.impl.EmployeeServiceImpl  employee abc login failed! 62 
+2020-12-10 03:37:14 com.revature.service.impl.EmployeeServiceImpl  employee 123 login failed! 62 
+2020-12-10 03:37:19 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 03:37:41 com.revature.service.impl.EmployeeServiceImpl  customer aa added successfully 81 
+2020-12-10 03:46:26 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:46:39 com.revature.service.impl.CustomerServiceImpl  a deposit 55 sucessful 77 
+2020-12-10 03:46:52 com.revature.dao.impl.CustomerDaoImpl  a withdraw 2000.0 failed! 52 
+2020-12-10 03:55:18 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 03:55:33 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 03:55:49 com.revature.service.impl.CustomerServiceImpl  a transfer 100 to b sucessfully！ 111 
+2020-12-10 03:56:15 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 04:04:55 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 04:05:02 com.revature.dao.impl.CustomerDaoImpl  a transfer 11111.0 to b failed! Insufficient funds！ 83 
+2020-12-10 04:05:02 com.revature.service.impl.CustomerServiceImpl  a transfer 11111 to b failed！ 114 
+2020-12-10 04:08:06 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
