@@ -273,3 +273,79 @@ com.revature.service.UserTest 2020-12-08 10:45:09 this is debug message 42
 2020-12-10 04:05:02 com.revature.service.impl.CustomerServiceImpl  a transfer 11111 to b failed！ 114 
 2020-12-10 04:08:06 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
 2020-12-10 04:25:54 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 04:58:06 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 04:58:18 com.revature.service.impl.CustomerServiceImpl  a transfer 111 to b sucessfully！ 111 
+2020-12-10 04:58:45 com.revature.service.impl.CustomerServiceImpl  a login failed! 66 
+2020-12-10 04:58:55 com.revature.service.impl.CustomerServiceImpl  a login failed! 66 
+2020-12-10 04:59:43 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 05:00:14 com.revature.service.impl.EmployeeServiceImpl  employee abc login failed! 62 
+2020-12-10 05:00:19 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 05:00:27 com.revature.service.impl.EmployeeServiceImpl  customer ais added successfully 81 
+2020-12-10 05:00:33 com.revature.service.impl.EmployeeServiceImpl  customer bis added successfully 81 
+2020-12-10 05:00:38 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 05:00:48 com.revature.service.impl.CustomerServiceImpl  a transfer 10 to b sucessfully！ 111 
+2020-12-10 05:12:24 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 59 
+2020-12-10 05:12:37 com.revature.service.impl.EmployeeServiceImpl  customer cis added successfully 81 
+2020-12-10 05:18:11 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:21:14 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:21:44 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:22:46 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:23:38 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:26:24 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 72 
+2020-12-10 05:32:04 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 81 
+2020-12-10 05:33:23 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 05:33:33 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 05:33:42 com.revature.service.impl.CustomerServiceImpl  a transfer 1 to c sucessfully！ 111 
+2020-12-10 05:33:51 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 05:34:04 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 05:34:11 com.revature.service.impl.CustomerServiceImpl  a transfer 1 to c sucessfully！ 111 
+2020-12-10 05:34:17 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 05:36:32 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 05:37:04 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 05:37:34 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 07:47:01 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 07:50:12 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 07:50:49 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 07:50:58 com.revature.service.impl.CustomerServiceImpl  a deposit 1 sucessful 77 
+2020-12-10 07:51:09 com.revature.service.impl.CustomerServiceImpl  a withdraw 9 sucessfully! 91 
+2020-12-10 07:51:26 com.revature.service.impl.CustomerServiceImpl  a transfer 55 to b sucessfully！ 111 
+2020-12-10 07:53:31 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 07:53:35 com.revature.dao.impl.CustomerDaoImpl  a withdraw 100.0 failed! 53 
+2020-12-10 07:53:46 com.revature.dao.impl.CustomerDaoImpl  a transfer 100.0 to c failed! Insufficient funds！ 86 
+2020-12-10 07:53:46 com.revature.service.impl.CustomerServiceImpl  a transfer 100 to c failed！ 114 
+2020-12-10 07:53:59 com.revature.dao.impl.CustomerDaoImpl  a transfer 100.0 to a failed! Insufficient funds！ 86 
+2020-12-10 07:53:59 com.revature.service.impl.CustomerServiceImpl  a transfer 100 to a failed！ 114 
+2020-12-10 07:54:09 com.revature.service.impl.CustomerServiceImpl  a transfer 10 to a sucessfully！ 111 
+2020-12-10 08:13:09 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:13:25 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 08:13:28 com.revature.service.impl.CustomerServiceImpl  a deposit 10 sucessful 77 
+2020-12-10 08:13:32 com.revature.service.impl.CustomerServiceImpl  a withdraw 10 sucessfully! 91 
+2020-12-10 08:13:42 com.revature.dao.impl.CustomerDaoImpl  a transfer 100.0 to b failed! Insufficient funds！ 86 
+2020-12-10 08:13:42 com.revature.service.impl.CustomerServiceImpl  a transfer 100 to b failed！ 114 
+2020-12-10 08:13:49 com.revature.service.impl.CustomerServiceImpl  a transfer 12 to b sucessfully！ 111 
+2020-12-10 08:14:41 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:15:09 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:15:54 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:16:13 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 08:17:44 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-10 08:21:04 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-10 08:21:47 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-10 08:22:15 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:22:22 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 08:23:05 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:23:26 com.revature.service.impl.CustomerServiceImpl  123 login failed! 66 
+2020-12-10 08:23:29 com.revature.service.impl.CustomerServiceImpl  a login successful! 63 
+2020-12-10 08:23:44 com.revature.dao.impl.CustomerDaoImpl  a transfer 1.0 to 1 failed! User not exist！ 90 
+2020-12-10 08:23:44 com.revature.service.impl.CustomerServiceImpl  a transfer 1 to 1 failed！ 114 
+2020-12-10 08:25:09 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:25:56 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 84 
+2020-12-10 08:26:24 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-10 08:26:55 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-10 08:27:04 com.revature.service.impl.CustomerServiceImpl  a login successful! 64 
+2020-12-11 08:44:22 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-11 08:44:42 com.revature.service.impl.CustomerServiceImpl  a login successful! 64 
+2020-12-11 08:44:46 com.revature.service.impl.CustomerServiceImpl  a deposit 100 sucessful 78 
+2020-12-11 08:44:51 com.revature.service.impl.CustomerServiceImpl  a withdraw 100 sucessfully! 92 
+2020-12-11 08:44:59 com.revature.service.impl.CustomerServiceImpl  a deposit 7 sucessful 78 
+2020-12-11 08:45:05 com.revature.dao.impl.CustomerDaoImpl  a withdraw 100.0 failed! 53 
+2020-12-11 08:45:18 com.revature.service.impl.CustomerServiceImpl  a transfer 10 to c sucessfully！ 112 

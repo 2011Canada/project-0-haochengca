@@ -19,11 +19,11 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public void menu() {
 		System.out.println("========Customer System========");
-		System.out.println("*********1.Deposite   ********");
-		System.out.println("*********2.Withdraw   ********");
-		System.out.println("*********3.Balance    ********");
-		System.out.println("*********4.Transfer   ********");
-		System.out.println("*********5.Return to Main ****");
+		System.out.println("****      1.Deposite       ****");
+		System.out.println("****      2.Withdraw       ****");
+		System.out.println("****      3.Balance        ****");
+		System.out.println("****      4.Transfer       ****");
+		System.out.println("****      5.Return to Main ****");
 		System.out.println("===============================");
 		System.out.print("Please choose:");
 		String choose = scanner.next();
@@ -42,6 +42,7 @@ public class CustomerServiceImpl implements CustomerService{
 			break;
 		case "5":
 			new BankServiceImpl().menu();
+			return;
 		default:
 			System.out.println("Wrong input, please input again!");
 			menu();

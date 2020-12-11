@@ -19,6 +19,7 @@ public class BankServiceImpl implements BankService {
 		System.out.println("******   1.Employee ****");
 		System.out.println("******   2.Customer ****");
 		System.out.println("******   3.exit     ****");
+		System.out.println("========================");
 		System.out.println("Please Choose:");
 		String choose =Scanner.next();
 		switch (choose) {
@@ -32,7 +33,7 @@ public class BankServiceImpl implements BankService {
 			customerService.login();
 			customerService.menu();
 		case "3":
-			Scanner.close();
+//			this.Scanner.close();
 			new BaseDao().closeResource();
 			return;
 		default:

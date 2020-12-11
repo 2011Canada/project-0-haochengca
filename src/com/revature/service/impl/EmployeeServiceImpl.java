@@ -9,6 +9,7 @@ import com.revature.dao.EmployeeDao;
 import com.revature.dao.impl.EmployeeDaoImpl;
 import com.revature.pojo.Customer;
 import com.revature.pojo.Employee;
+import com.revature.pojo.TransactionHistory;
 import com.revature.service.EmployeeService;
 import com.revature.util.MyUtil;
 
@@ -21,11 +22,13 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 	@Override
 	public void menu() {
-		System.out.println("======Employee System======");
-		System.out.println("***   1.Add customer    ***");
-		System.out.println("***   2.Show customers  ***");
-		System.out.println("***   3.Back to Main menu *");
-		System.out.println("===========================");
+		System.out.println("==========Employee System==========");
+		System.out.println("***     1.Add customer          ***");
+		System.out.println("***     2.Show customers        ***");
+		System.out.println("***     3.Show customer by name ***");
+		System.out.println("***     4.Show transactions     ***");
+		System.out.println("***     5.Back to Main menu     ***");
+		System.out.println("===================================");
 		System.out.print("Please Choose:");
 		String choose = scanner.next();
 		switch (choose) {
@@ -36,7 +39,14 @@ public class EmployeeServiceImpl implements EmployeeService{
 			showCustomers();
 			break;
 		case "3":
+			showCustomer();
+			break;
+		case "4":
+			showTransactions();
+			break;
+		case "5":
 			new BankServiceImpl().menu();
+			return;
 		default:
 			System.out.println("Wrong input, please input again！");
 			menu();
@@ -45,6 +55,22 @@ public class EmployeeServiceImpl implements EmployeeService{
 		menu();
 		
 		
+	}
+
+	private void showTransactions() {
+		List<TransactionHistory> transactionHistories= edi.showAllTransactions();
+		for(TransactionHistory transactionHistory: transactionHistories) {
+			System.out.println(transactionHistory.toString());
+		}
+	}
+
+	private void showCustomer() {
+		Customer customer;
+		
+		System.out.println("username:");
+		String username = scanner.next();
+		customer = edi.showCustomerByName(username);
+		System.out.println(customer.toString());
 	}
 
 	@Override

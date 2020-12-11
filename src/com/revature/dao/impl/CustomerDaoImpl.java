@@ -11,6 +11,7 @@ import org.apache.log4j.Logger;
 import com.revature.dao.BaseDao;
 import com.revature.dao.CustomerDao;
 import com.revature.pojo.Customer;
+import com.revature.util.MyUtil;
 
 public class CustomerDaoImpl extends BaseDao implements CustomerDao{
 	private ResultSet rs;
@@ -77,6 +78,8 @@ public class CustomerDaoImpl extends BaseDao implements CustomerDao{
 			if (blance(customer) >= num) {
 				drawMoney(customer, num);
 				depositMoney(customer1, num);
+				sql = "insert into transactionhistory(customerusername,customerusername1,transactionid,amount) values(?,?,?,?)";
+				flag = executeUpdate(sql, customer.getCustomerusername(), customer1.getCustomerusername(), MyUtil.AutoNumber(),num);
 				flag = true;
 			} else {
 				System.out.println("Insufficient funds！");
