@@ -3,15 +3,15 @@ package com.revature.dao;
 import com.revature.pojo.Customer;
 
 public interface CustomerDao {
-		// 顾客登陆
+		// login
 		public boolean login(Customer customer);
-		//存款
+		//depositMoney
 		public boolean depositMoney(Customer customer, double num);
-		//取款
+		//drawMoney
 		public boolean drawMoney(Customer customer, double num);
-		//查询余额
+		//balance
 		public double blance(Customer customer);
-		//转账
+		//transfer
 		public boolean transferAccount(Customer customer, Customer customer1, double num);
 		
 }

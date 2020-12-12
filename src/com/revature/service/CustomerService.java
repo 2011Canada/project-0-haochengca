@@ -2,28 +2,28 @@ package com.revature.service;
 
 public interface CustomerService {
 	/**
-	 * 菜单 对顾客登陆、存款、取款、查询余额、转账、修改密码界面的输入和显示
+	 * menu
 	 */
 	public void menu() ;
 	/**
-	 * 用户登录
+	 * login
 	 */
 	public void login();
 	/**
-	 * 存款
+	 * depositMoney
 	 */
 	public void depositMoney();
 	/**
-	 * 取款
+	 * withdrawMoney
 	 */
 	public void drawMoney();
 	/**
-	 * 查询余额
+	 * checkblance
 	 */
 	public void checkblance();
 	
 	/**
-	 * 转账
+	 * transfer
 	 */
 	public void transferAccount();
 	

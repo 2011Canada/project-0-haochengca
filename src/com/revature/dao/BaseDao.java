@@ -8,11 +8,6 @@ import java.util.Date;
 
 import com.revature.util.DataConnectUtil;
 
-/**
- * @author keller
- * @date 创建时间：2016年8月28日下午5:07:07
- * @version 1.0
- */
 public class BaseDao {
 	private Connection connection;
 	private PreparedStatement ps;

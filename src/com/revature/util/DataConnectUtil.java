@@ -8,11 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Properties;
 
-/**
- * @author keller
- * @date 创建时间：2016年8月28日下午5:01:44
- * @version 1.0
- */
+
 public class DataConnectUtil {
 
 	private static Connection connection;
@@ -29,7 +25,7 @@ public class DataConnectUtil {
 		getProperties();
 	}
 	/**
-	 * 读取就properties文件中的数据
+	 * read properties
 	 */
 	public static void getProperties() {
 		Properties pro = new Properties();
@@ -50,7 +46,7 @@ public class DataConnectUtil {
 
 	}
 	/**
-	 * 获得jdbc链接
+	 * jdbc connection
 	 * @return
 	 */
 	public static Connection getConnection() {
@@ -70,7 +66,7 @@ public class DataConnectUtil {
 	}
 
 	/**
-	 * 关闭jdbc资源
+	 * close jdbc
 	 * @param connection2
 	 * @param statement
 	 * @param resultSet

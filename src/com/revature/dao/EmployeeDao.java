@@ -12,7 +12,7 @@ public interface EmployeeDao {
 	 * login
 	 * 
 	 * @param administrator
-	 *            administeator info
+	 *            
 	 * @return
 	 */
 	public boolean login(Employee employee);

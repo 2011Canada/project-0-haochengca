@@ -5,17 +5,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-/**
- * @author keller
- * @date 创建时间：2016年8月29日下午5:39:39
- * @version 1.0
- */
+
 public class MyUtil {
 	
-	/**
-	 * 自动生成一组数字
-	 * @return 以当前时间+一位随机数的字符串形式
-	 */
+	
 	public static String AutoNumber() {
 		// Calendar calendar =Calendar.getInstance();
 		// SimpleDateFormat simpleDateFormat = new
@@ -24,10 +17,7 @@ public class MyUtil {
 		String num = getdate() + String.valueOf((int) (Math.random() * 10));
 		return num;
 	}
-	/**
-	 * 获取当前时间
-	 * @return 当前时间的字符串形式
-	 */
+	
 	public static String getdate() {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
@@ -35,12 +25,7 @@ public class MyUtil {
 		return date;
 	}
 
-	/**
-	 * 判断输入是否为数字，是转为double并返回，否则返回0
-	 * 
-	 * @param num
-	 * @return
-	 */
+	
 	public static double isnum(String num) {
 		boolean flag = true;
 		for (int i = 0; i < num.length(); i++) {

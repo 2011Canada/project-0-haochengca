@@ -349,3 +349,7 @@ com.revature.service.UserTest 2020-12-08 10:45:09 this is debug message 42
 2020-12-11 08:44:59 com.revature.service.impl.CustomerServiceImpl  a deposit 7 sucessful 78 
 2020-12-11 08:45:05 com.revature.dao.impl.CustomerDaoImpl  a withdraw 100.0 failed! 53 
 2020-12-11 08:45:18 com.revature.service.impl.CustomerServiceImpl  a transfer 10 to c sucessfully！ 112 
+2020-12-11 03:31:23 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
+2020-12-11 03:31:39 com.revature.service.impl.CustomerServiceImpl  a login successful! 64 
+2020-12-12 12:09:34 com.revature.service.impl.EmployeeServiceImpl  employee abc login failed! 88 
+2020-12-12 12:09:39 com.revature.service.impl.EmployeeServiceImpl  employee abc login sucessfully! 85 
